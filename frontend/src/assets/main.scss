@@ -1,0 +1,54 @@
+// src/assets/main.scss
+
+// Basic resets
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Body styling
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+// Navigation styles
+nav {
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  a {
+    color: white;
+    &:hover {
+      color: #ccc;
+    }
+  }
+}
+
+// Heading styles
+h1, h2, h3 {
+  color: #0056b3;
+}
+
+// Buttons and form elements
+button,
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+// Product card
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+}
